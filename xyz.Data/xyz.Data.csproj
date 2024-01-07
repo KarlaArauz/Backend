@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <LangVersion>12</LangVersion>
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Ardalis.EFCore.Extensions" />
+      <PackageReference Include="Enee.Core.Data"  />
+      <PackageReference Include="FluentMigrator" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Relational"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\xyz.Domain\xyz.Domain.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,17 @@
+{
+  "name": "xyz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "devDependencies": {
+    "@b12k/branch-name-lint": "^1.1.0",
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "hads": "^3.0.3",
+    "lefthook": "^1.5.5"    
+  },
+  "scripts": {
+    "preinstall": "dotnet tool restore",
+    "docs": "hads ./docs -o -r -p 4065"
+  }
+}
